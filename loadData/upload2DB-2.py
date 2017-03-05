@@ -22,6 +22,14 @@ dataPath = '/home/frodos/anaconda/work/projectNYtaxi/rawData';
 tableName = 'trip';
 
 Base = declarative_base();
+                       
+paymentDict = {'Credit':1,'CREDIT':1,'CRD':1,
+               'CASH':2,'Cash':2,'CSH':2,
+               'NOC':3,
+               'DIS': 4,
+               'UNK': 5};
+
+vendorDict = {'CMT':1,'VTS': 2}                   
 
 class trip2(Base):
     __tablename__ =tableName
@@ -139,7 +147,10 @@ if __name__ =='__main__':
                                 'passenger_count','trip_distance','pickup_longitude','pickup_latitude',
                                 'RatecodeID','store_and_fwd_flag','dropoff_longitude','dropoff_latitude',
                                 'payment_type','fare_amount','extra','mta_tax','tip_amount','tolls_amount',
-                                'improvement_surcharge','total_amount'];
+                                'total_amount'];
+            df['improvement_surcharge'] = np.zeros(df.shape[0]);
+            df['VendorID'] = df['VendorID'].map(vendorDict);
+            df['payment_type'] = df['payment_type'].map(paymentDict);  
             df = cleanData(df,regs);
     
            
