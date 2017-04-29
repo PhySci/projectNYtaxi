@@ -36,7 +36,7 @@ def main():
         ts = ts.reindex(date_index, fill_value=0)
         df = df.merge(ts,left_index=True,right_index=True)
 
-    df.to_picle("crowdRegs2.pcl")
+    df.to_pickle("crowdRegs2.pcl")
 
 if __name__=="__main__":
     main()
