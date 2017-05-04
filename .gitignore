@@ -1,4 +1,7 @@
-/data/yellow_tripdata_2016-05.csv
+/data/*
+/.ipynb_checkpoints/**
+/**/.ipynb_checkpoints/**
+
 week1-reviews
 /week2-reviews
 /model_28March2017.pcl
