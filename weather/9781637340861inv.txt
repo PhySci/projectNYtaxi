@@ -1,0 +1,7 @@
+997271 99999 THE BATTERY                    2014  740  671  744  690  739  717  714  727  713  738  720  743
+997271 99999 THE BATTERY                    2015  743  644  736  720  742  719  732  672  704  725  551  693
+997271 99999 THE BATTERY                    2016  744  684  688  677  744  718  742  744  718  744  689  739
+
+
+Total Surface Hourly Observations Available: 25668
+Total Station-Years: 3

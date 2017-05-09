@@ -1,0 +1,3 @@
+USAF-WBAN_ID STATION NAME                   COUNTRY                                            STATE 			      LATITUDE LONGITUDE ELEVATION
+------------ ------------------------------ -------------------------------------------------- ------------------------------ -------- --------- ---------
+997271 99999 THE BATTERY                    UNITED STATES                                      NEW YORK                        +40.701  -074.014   +0010.0
