@@ -14,7 +14,7 @@ def main():
     engine = create_engine('postgresql://user:user@localhost/ML_project2')
 
     startDate = datetime(2014, 1, 1, 0, 0, 0)
-    endDate = datetime(2016, 5, 30, 23, 59, 59)
+    endDate = datetime(2016, 6, 30, 23, 59, 59)
     date_index = pd.date_range(startDate, endDate, freq='H')
 
     # create empty DataFrame
@@ -36,7 +36,7 @@ def main():
         ts = ts.reindex(date_index, fill_value=0)
         df = df.merge(ts,left_index=True,right_index=True)
 
-    df.to_pickle("crowdRegs2.pcl")
+    df.to_pickle("crowdRegs3.pcl")
 
 if __name__=="__main__":
     main()
