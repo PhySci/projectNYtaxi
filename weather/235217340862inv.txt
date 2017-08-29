@@ -1,7 +1,0 @@
-725053 94728 CENTRAL PARK                   2014  928  917  899  929 1058  986  951  916  933 1001  958 1068
-725053 94728 CENTRAL PARK                   2015 1060  870 1025  892  928 1043  949  901  925  889  857 1048
-725053 94728 CENTRAL PARK                   2016  892  983  917  853  965  883  981  902  882  985  877  917
-
-
-Total Surface Hourly Observations Available: 33968
-Total Station-Years: 3
